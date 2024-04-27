@@ -1,0 +1,118 @@
+
+.uploaddis{
+    border: 2px dashed #c3c3c3;
+    display: table;
+    table-layout: fixed;
+    margin-bottom: 10px;
+}
+.uploaddis.aktif .yuklendi{
+    display: none;
+}
+
+.uploaddis.pasif .upload{
+    display: none;
+}
+
+.uploaddis.pasif .upload1{
+    display: none;
+}
+.uploaddis.pasif .upload2{
+    display: none;
+}
+.uploaddis.pasif .upload3{
+    display: none;
+}
+
+
+.uploaddis .icon {
+  -webkit-transition: background-color 300ms ease-in-out;
+  -o-transition: background-color 300ms ease-in-out;
+  transition: background-color 300ms ease-in-out;
+  background-color: #f5f5f5;
+  border-radius: 50%;
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  padding: 12px;
+  padding: 13px;
+  text-align: center;
+  vertical-align: middle;
+}
+.uploaddis .icon:hover {
+  background-color: #4285f4;
+  cursor: pointer;
+}
+.uploaddis .icon span{
+  -webkit-transition: color 300ms ease-in-out;
+  -o-transition: color 300ms ease-in-out;
+  transition: color 300ms ease-in-out;
+  font-size: 25px;
+  color: #696767;
+  display: block !important;
+}
+.uploaddis .icon:hover span {
+  color: #ffffff;
+}
+
+.uploaddis .upload{
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    padding: 15px 30px;
+}
+.uploaddis .upload1{
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    padding: 15px 30px;
+}
+.uploaddis .upload2{
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    padding: 15px 30px;
+}
+.uploaddis .upload3{
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    padding: 15px 30px;
+}
+
+.uploaddis .upload .metin{
+    font-weight: 300;
+    font-size: 13px;
+    color: #807e7e;
+}
+.uploaddis .upload1 .metin{
+    font-weight: 300;
+    font-size: 13px;
+    color: #807e7e;
+}
+.uploaddis .upload2 .metin{
+    font-weight: 300;
+    font-size: 13px;
+    color: #807e7e;
+}
+.uploaddis .upload3 .metin{
+    font-weight: 300;
+    font-size: 13px;
+    color: #807e7e;
+}
+
+.uploaddis .yuklendi{
+    position: relative;
+}
+.uploaddis .yuklendi img{
+  max-width: 100%;
+  max-height: 95px;
+}
+.uploaddis .yuklendi .icon {
+    position: absolute;
+    right: -30px;
+    top: -30px;
+    width: 30px;
+    height: 30px;
+    padding: 6px 0px;
+}
+.uploaddis .yuklendi .icon span{font-size: 18px;}

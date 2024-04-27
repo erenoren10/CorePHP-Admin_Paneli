@@ -1,0 +1,13 @@
+RewriteEngine On
+RewriteCond %{SERVER_PORT} !=443
+
+
+RewriteCond %{REQUEST_FILENAME} !-d 
+RewriteCond %{REQUEST_FILENAME} !-f 
+
+RewriteRule ^g2aleri/? galeri2.php [NC,L]
+
+
+RewriteRule ^([0-9a-zA-Z-_]+)$  detay.php?seo=$1 [L,QSA]
+
+
